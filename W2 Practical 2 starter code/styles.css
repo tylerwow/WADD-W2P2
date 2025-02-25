@@ -77,11 +77,20 @@ footer {
     width: 25%;
 }
 
-#main-story {
-    width: 70%;
+.current-story {
+    float:right;
+    position: relative;
 }
 
-#current-story {
-    float: right;
-    
+.current-story figcaption {
+    position: absolute;
+    width:100%;
+    text-align: center;
+    bottom:0em;
+    line-height: 2em;
+    background-color: #ffffffcc;
+}
+
+.story-preview {
+    display: inline-block;
 }
